@@ -34,7 +34,10 @@
     <link rel="stylesheet" type="text/css" href="css/component.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/style-responsive.css" rel="stylesheet" />
-
+	
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
@@ -44,14 +47,19 @@
     <script src="js/respond.min.js">
     </script>
     <![endif]-->
-	<style>
+	<!--style>
 	ul
 		{
 			list-style-type: none;
 		}
-	</style>
+	</style-->
 	
   </head>
+	<!--div class="row">
+		<div class="col-sm-4">.col-sm-4</div>
+		<div class="col-sm-4">.col-sm-4</div>
+		<div class="col-sm-4">.col-sm-4</div>
+	</div-->
 
   <body>
   <!--header start-->
@@ -63,6 +71,8 @@
 				<span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html">
 				<span>Niograph</span></a>
 			</div>
+			
+			
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li class="dropdown">
@@ -71,28 +81,37 @@
 				 
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-close-others="false" data-delay="0" data-hover=
-							"dropdown" data-toggle="dropdown" href="#.html">Products <i class="fa fa-angle-down"></i>
+						"dropdown" data-toggle="dropdown" href="#.html">Products <i class="fa fa-angle-down"></i>
 						</a>
 						<ul class="dropdown-menu">
 							<li>
 								<a href="educationmedia.html">Education Media</a>
 							</li>
+							<ol>
 					   
-							<li>
-								<a href="features.html">Features</a>
-							</li>
+								<ol>
+									<a href="features.html">Features</a>
+								</ol>
+								<br>
 					
-							<li>
-								<a href="modules.html">Modules</a>
-							</li>
+								<ol>
+									<a href="modules.html">Modules</a>
+								</ol>
+								<br>
 					
-							<li>
-								<a href="why em.html">Why EM</a>
-							</li>
+						
+								<ol>
+									<a href="why em.html">Why EM</a>
+								</ol>
+								<br>
 					
-							<li>
-								<a href="pricing.html">Pricing</a>
-							</li>
+						
+								<ol>
+									<a href="pricing.html">Pricing</a>
+								</ol>
+								<br>
+					
+							</ol>	
 						</ul>
 					</li>
 					
@@ -233,15 +252,14 @@
 						<td>
 							<div class="col-lg-12 col-sm-12">
 								<div class="col-lg-1 col-sm-1" >
-									<br/>
+									</br>
 									<a title="Online Admission" href="" style="margin-top:5px;">
 										<img alt="Online Admission" src="img/icon3.png">
 									</a>
 								</div>
 								<div class="col-lg-10 col-sm-10">
-									<h4>Online Admission</h4>
-									<p>Increase convenience for students and parents with easy,
-								   24/7 access to sign up for any class or activity.
+									<h4>Attandance Management</h4>
+									<p>Attendance management system helps school management to improve monitoring and tracking capabilities.
 									</p>
 								</div>
 							
@@ -256,8 +274,8 @@
 									</a>
 								</div>
 								<div class ="col-lg-10 col-sm-10">
-									<h4>Online Fee Payment</h4>
-									<p>Securely process, tracks and reports the flow of money as it enters the school all the way to the bank.
+									<h4>Library Management</h4>
+									<p>School Library is at the center of academic development.
 									</p>
 								</div>	
 							</div>	
@@ -274,8 +292,8 @@
 									</a>
 								</div>
 								<div class="col-lg-10 col-sm-10">
-									<h4>Online Hostel Management</h4>
-									<p>To provide healthy enviroment,food and all well set facilites for student and staff.
+									<h4>Tansport Management</h4>
+									<p>Transportation is another basic facility, provided by school / colleges to the students, staff and faculty.
 									</p>
 								</div>
 							</div>
@@ -291,8 +309,8 @@
 									</a>
 								</div>
 								<div class ="col-lg-10 col-sm-10">
-									<h4>Online Tansport Management</h4>
-									<p>Fully automated system for managing the bus routes for efficient student transportation.
+									<h4>Alumni Management</h4>
+									<p>School prepares students to face challenges and obstacles present in the world and opposite is also true.
 									</p>
 								</div>	
 							</div>	
@@ -309,8 +327,8 @@
 										</a>
 								</div>
 								<div class="col-lg-10 col-sm-10">
-									<h4>Online Alumni Management</h4>
-									<p>Let us always meet each other with a smile.For the smile is the beginning of love.
+									<h4>Student Management</h4>
+									<p>There are variety of operations which happens in a school every day.
 									</p>
 								</div>
 							</div>
@@ -387,6 +405,7 @@
 						list-style-type:none;
 					}				
 				</style>
+				<center>
 				<h4> Features for Faculty</h4>
 				<hr>
 		        <a href =""style="margin-top:5px;">Online Admission</a>
@@ -398,7 +417,8 @@
 				<a href =""style="margin-top:5px;">HR Management</a>
 				</br>
 				<a href =""style="margin-top:5px;">LMS Moodle</a>
-				</br>	
+				</br>
+				</center>
 			</div>
 		</div>
     </div>
@@ -449,7 +469,7 @@
 					</address>
 				</div>
 				
-				<div class="col-lg-3 col-sm-3 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
+				<!--div class="col-lg-3 col-sm-3 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".3s">
 					<h1>
 						latest tweet
 					</h1>
@@ -497,7 +517,7 @@
 							</em>
 						</div>
 					</div>
-				</div>
+				</div-->
 				<div class="col-lg-3 col-sm-3">
 					<div class="page-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s">
 						<h1>
@@ -554,7 +574,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-lg-3 col-sm-3">
+				<!--div class="col-lg-3 col-sm-3">
 					<div class="text-footer wow fadeInUp" data-wow-duration="2s" data-wow-delay=".7s">
 						<h1>
 							Text Widget
@@ -564,7 +584,7 @@
 							This is a text widget.Lorem ipsum dolor sit amet
 						</p>
 					</div>
-				</div>
+				</div-->
 			</div>
 		</div>
 	</footer>
@@ -587,7 +607,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="copyright">
-                    <p>&copy; Copyright - Acme Theme by cosmic.</p>
+                    <!--p>&copy; Copyright - Acme Theme by cosmic.</p-->
                   </div>
                 </div>
             </div>
